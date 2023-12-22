@@ -1,0 +1,29 @@
+--------------------------------------html code--------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather forecast</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <div class="container" id="main">
+        <div class="data" id="sub-container">
+            <h1>Weather Report</h1>
+            <input id="input" type="text" placeholder="Type the city.....">
+            <button class="button" id="btn" onclick="searchcity()">Search</button>
+            <div class="getdata" id="get">
+                <h4 id="city-name">-------</h4>
+            </div>
+            <div class="weather" id="type">
+            <h4>  Weathertype:<span id="weather-type"></span></h4>
+            </div>
+            <div id="degree">
+                <h3>Temperature:<span id="temp"></span><span>°F</span></h3>
+                <h3>Humidity   :<span id="humid"></span><span>%</span></h3>
+            </div>
+
+        </div>
+    </div>
